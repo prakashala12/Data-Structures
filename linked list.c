@@ -14,7 +14,7 @@ int main() {
 
     // Assign data
     first->data = 10;
-      first->next = second;
+    first->next = second;
     second->data = 20;
      second->next = third;
     third->data = 30;
@@ -29,3 +29,4 @@ int main() {
 
     return 0;
 }
+
