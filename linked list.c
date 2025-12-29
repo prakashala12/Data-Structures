@@ -16,7 +16,7 @@ int main() {
     first->data = 10;
     first->next = second;
     second->data = 20;
-     second->next = third;
+    second->next = third;
     third->data = 30;
     third->next = NULL;
     // Print list
@@ -29,4 +29,5 @@ int main() {
 
     return 0;
 }
+
 
